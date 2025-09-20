@@ -1,0 +1,27 @@
+
+.pixelify-sans-400 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.game {
+    background-image: url('./assets/windowsXPbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
